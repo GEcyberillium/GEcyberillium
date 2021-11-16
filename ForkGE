@@ -1,0 +1,86 @@
+.companyRiskRadar {
+    height: 300px;
+    width: 450px;    
+    margin: auto;
+}
+
+.companyRiskSpread {
+    width: 250px;
+    height: 150px;
+    margin:auto;
+}
+
+.table-clickable {
+    tbody{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@import "../../mock/variables-mock.scss";
+
+.general-risk{
+    color: $general-risk !important;
+    &.badge{
+        background-color: rgba($general-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+.critical-risk{
+    color: $critical-risk !important;
+    &.badge{
+        background-color: rgba($critical-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+.high-risk{
+    color: $high-risk !important;    
+    &.badge{
+        background-color: rgba($high-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+.medium-risk{
+    color: $medium-risk !important;
+    &.badge{
+        background-color: rgba($medium-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+.low-risk{
+    color: $low-risk !important;
+    &.badge{
+        background-color: rgba($low-risk, 0.25) !important;
+        font-size: 100%;
+    }    
+}
+.informational-risk{
+    color: $informational-risk !important;
+    &.badge{
+        background-color: rgba($informational-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+
+.internal-risk{
+    color:$internal-risk !important;
+    &.badge{
+        background-color: rgba($internal-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+.perimeter-risk{
+    color:$perimeter-risk !important;
+    &.badge{
+        background-color: rgba($perimeter-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
+.cloud-risk{
+    color:$cloud-risk !important;
+    &.badge{
+        background-color: rgba($cloud-risk, 0.25) !important;
+        font-size: 100%;
+    }
+}
